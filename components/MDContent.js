@@ -42,7 +42,9 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
 
         <div className="markdown-rendered">
             <Alert severity="info">
-                <AlertTitle>🌱 Jardín Digital de Comunicación Abierta</AlertTitle>
+                <AlertTitle>Bienvenid+ a mi Jardín</AlertTitle>
+                🌱 <strong>Tierra arada</strong> gracias al código de <span><a
+                href="https://twitter.com/tuancm">@tuancm</a></span>
             </Alert>
             <div dangerouslySetInnerHTML={{__html: content}}/>
             {/*<button onClick={handleInternalLinkClick}>Click me</button>*/}
@@ -51,11 +53,8 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
                 <BackLinks linkList={backLinks}/>
             </div>
             <hr/>
-            <footer style="text-align:left !important;">
-            <Alert severity="info">
-                <AlertTitle>🌱 <strong>Tierra arada</strong> gracias al código de <span><a
-                href="https://twitter.com/tuancm">@tuancm</a></span></AlertTitle>
-            </Alert>
+            <footer>
+                <p>Powered by  <a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a>, © 2022</p>
             </footer>
         </div>
     );
