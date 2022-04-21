@@ -42,7 +42,7 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
 
         <div className="markdown-rendered">
             <Alert severity="info">
-                <AlertTitle>🌱 Jardín Digital de <a href="https://comunicacionabierta.net" target="_blank">Comunicación Abierta</a></AlertTitle>
+                <AlertTitle>🌱 Jardín Digital de Comunicación Abierta</AlertTitle>
             </Alert>
             <div dangerouslySetInnerHTML={{__html: content}}/>
             {/*<button onClick={handleInternalLinkClick}>Click me</button>*/}
