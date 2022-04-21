@@ -42,8 +42,8 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
 
         <div className="markdown-rendered">
             <Alert severity="info">
-                <AlertTitle>Want to know more?</AlertTitle>
-                🌱 <strong>Follow</strong> or <strong>DM</strong> me on Twitter at <span><a
+                <AlertTitle>Bienvenid+ a mi Jardín</AlertTitle>
+                🌱 <strong>Tierra arada</strong> gracias al código de <span><a
                 href="https://twitter.com/tuancm">@tuancm</a></span>
             </Alert>
             <div dangerouslySetInnerHTML={{__html: content}}/>
