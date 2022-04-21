@@ -53,7 +53,7 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
             <hr/>
             <footer style="text-align:left !important;">
             <Alert severity="info">
-                <AlertTitle>🌱 Tierra arada</strong> gracias al código de <span><a
+                <AlertTitle>🌱 <strong>Tierra arada</strong> gracias al código de <span><a
                 href="https://twitter.com/tuancm">@tuancm</a></AlertTitle>
             </Alert>
             </footer>
