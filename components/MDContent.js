@@ -42,9 +42,9 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
 
         <div className="markdown-rendered">
             <Alert severity="info">
-                <AlertTitle> 🌱 Bienvenid+ al Jardín Digital de <a href="https://comunicacionabierta.net" target="_blank">@comunicacionabierta</a></AlertTitle>
-                <!--<strong>Tierra arada</strong> gracias al código de <span><a
-                href="https://twitter.com/tuancm">@tuancm</a></span> -->
+                <AlertTitle>Bienvenid+ a mi Jardín</AlertTitle>
+                🌱 <strong>Tierra arada</strong> gracias al código de <span><a
+                href="https://twitter.com/tuancm">@tuancm</a></span>
             </Alert>
             <div dangerouslySetInnerHTML={{__html: content}}/>
             {/*<button onClick={handleInternalLinkClick}>Click me</button>*/}
@@ -55,9 +55,11 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
             <hr/>
             <footer>
             <Alert severity="info">
-                🌱 <strong>Funciona</strong> gracias a <span><a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a></span>
+                <AlertTitle>Bienvenid+ a mi Jardín</AlertTitle>
+                🌱 <strong>Tierra arada</strong> gracias al código de <span><a
+                href="https://twitter.com/tuancm">@tuancm</a></span>
             </Alert>
-               <!-- <p>Powered by  <a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a>, © 2022</p>-->
+                <p>Powered by  <a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a>, © 2022</p>
             </footer>
         </div>
     );
